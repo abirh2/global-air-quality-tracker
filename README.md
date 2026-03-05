@@ -5,7 +5,7 @@
 
 **Real-time air quality monitoring for anywhere in the world.**
 
-[Live Demo](https://ahossain.github.io/global-air-quality-tracker) &nbsp;·&nbsp; [Report a Bug](https://github.com/ahossain/global-air-quality-tracker/issues)
+[Live Demo](https://abirh2.github.io/global-air-quality-tracker) &nbsp;·&nbsp; [Report a Bug](https://github.com/abirh2/global-air-quality-tracker/issues)
 
 </div>
 
@@ -56,7 +56,7 @@ All data is fetched live with no API keys required.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/ahossain/global-air-quality-tracker.git
+git clone https://github.com/abirh2/global-air-quality-tracker.git
 cd global-air-quality-tracker
 
 # 2. Install dependencies
