@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans);
+}
+
+@layer base {
+  :root {
+    --bg-app: #f8fafc;
+    --text-app: #020617;
+  }
+
+  .dark {
+    --bg-app: #020617;
+    --text-app: #f8fafc;
+  }
+
+  body {
+    background-color: var(--bg-app);
+    color: var(--text-app);
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/85 border-black/5 shadow-lg transition-all duration-300 backdrop-blur-xl border;
+  }
+  
+  .dark .glass-panel {
+    @apply bg-slate-900/80 border-white/10 shadow-2xl;
+  }
+
+  .glass-dark {
+    @apply bg-slate-900/80 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+}
+
+/* Leaflet Overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #f1f5f9 !important;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+}
+
+.leaflet-control-zoom-in, .leaflet-control-zoom-out {
+  @apply !bg-white !text-slate-600 !border-none !rounded-lg !w-10 !h-10 !flex !items-center !justify-center !text-lg hover:!bg-slate-50 !transition-colors !mb-1;
+}

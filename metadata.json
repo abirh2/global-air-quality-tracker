@@ -1,0 +1,5 @@
+{
+  "name": "Global Air Quality Explorer",
+  "description": "Real-time global air quality monitoring with interactive maps and detailed environmental data.",
+  "requestFramePermissions": ["geolocation"]
+}
