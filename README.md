@@ -1,4 +1,6 @@
 <div align="center">
+
+
 # Global Air Quality Tracker
 
 **Real-time air quality monitoring for anywhere in the world.**
