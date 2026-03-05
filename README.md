@@ -1,6 +1,4 @@
 <div align="center">
-<img width="1200" height="475" alt="Global Air Quality Tracker" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-
 # Global Air Quality Tracker
 
 **Real-time air quality monitoring for anywhere in the world.**
